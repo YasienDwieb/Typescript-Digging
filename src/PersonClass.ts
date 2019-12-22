@@ -1,6 +1,7 @@
-import { Color, Gender } from './Enums';
+// import { Color, Gender } from './Enums';
+import { Color, Gender } from './index'
 
-class Person {
+export default class Person {
     name: string
     age: number
     gender: Gender
@@ -25,5 +26,3 @@ class Person {
         console.log(this)
     }
 }
-
-export default Person

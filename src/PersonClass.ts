@@ -1,7 +1,7 @@
 // import { Color, Gender } from './Enums';
-import { Color, Gender } from './index'
+import { Color, Gender } from '.'
 
-export default class Person {
+export default abstract class Person {
     name: string
     age: number
     gender: Gender

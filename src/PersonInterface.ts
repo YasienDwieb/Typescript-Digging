@@ -1,4 +1,4 @@
-import { Color, Gender } from './Enums';
+import { Color, Gender } from '.';
 
 export interface Person {
     name: string,

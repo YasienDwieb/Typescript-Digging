@@ -2,10 +2,7 @@
 // import { Color, Gender } from './src';
 // import Person from './src/PersonClass';
 
-import {Color, Gender, PersonInterface, Person} from './src'
-import { Employee } from './src/Employee'
-import { Customer } from './src/Customer'
-
+import { Color, Gender, PersonInterface, Customer, Employee } from './src'
 const myName: string = "My name is here"
 console.log('name: ', myName)
 

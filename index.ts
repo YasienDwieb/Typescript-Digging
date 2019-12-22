@@ -1,15 +1,15 @@
 const myName: string = "My name is here"
-console.log('name: ', name)
+console.log('name: ', myName)
 
 enum Colors {
-    Red,
-    Green,
-    Blue
+    Red = 'red',
+    Green = 'green',
+    Blue = 'blue'
 }
 
 enum Gender {
-    male,
-    female
+    male = 'male',
+    female = 'female'
 }
 
 interface Person {

@@ -1,16 +1,16 @@
 "use strict";
 var myName = "My name is here";
-console.log('name: ', name);
+console.log('name: ', myName);
 var Colors;
 (function (Colors) {
-    Colors[Colors["Red"] = 0] = "Red";
-    Colors[Colors["Green"] = 1] = "Green";
-    Colors[Colors["Blue"] = 2] = "Blue";
+    Colors["Red"] = "red";
+    Colors["Green"] = "green";
+    Colors["Blue"] = "blue";
 })(Colors || (Colors = {}));
 var Gender;
 (function (Gender) {
-    Gender[Gender["male"] = 0] = "male";
-    Gender[Gender["female"] = 1] = "female";
+    Gender["male"] = "male";
+    Gender["female"] = "female";
 })(Gender || (Gender = {}));
 var p1 = {
     name: "ahmed",
